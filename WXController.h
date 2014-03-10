@@ -1,13 +1,14 @@
 //
 //  WXController.h
-//  SimpleWeather
+//  Weather
 //
-//  Created by Ryan Nystrom on 11/11/13.
-//  Copyright (c) 2013 Ryan Nystrom. All rights reserved.
+//  Created by Jesse on 13-12-10.
+//  Copyright (c) 2013年 Jesse. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface WXController : UIViewController
+<UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate>
 
 @end
